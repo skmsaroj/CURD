@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="pcode">pcode</label>
+                        <input type="text" name="pcode" id="pcode">
+                    </div>
+
+                    <div>
+                        <label for="p">p</label>
+                        <input type="text" name="p" id="p">
+                    </div>
+
+                    <div>
+                        <label for="qtry">qtry</label>
+                        <input type="text" name="qtry" id="qtry">
+                    </div>
+
+                    <div>
+                        <label for="price">price</label>
+                        <input type="text" name="price" id="price">
+                    </div>
+
+                    <div>
+                        <input type="submit" value="submit">
+                        <input type="reset" value="reset">
+
+                    </div>
+
+                </form>
+            </td>
+
+            <td>
+                <table class="c" id="list">
+                    <thead>
+                        <tr>
+                            <th>pcode</th>
+                            <th>p</th>
+                            <th>qty</th>
+                            <th>price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
